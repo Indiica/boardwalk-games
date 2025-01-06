@@ -38,5 +38,5 @@ color: var(--primary-color);
 
 .col-12 {
     border: 2px solid white;
-    border-color: lightgray;
+    background-color: lightgray;
 }
