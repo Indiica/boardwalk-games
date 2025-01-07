@@ -27,7 +27,7 @@ text-transform: uppercase;
 }
 
 .sub-heading-color {
-    color: var(--highlight-color)
+    color: var(--highlight-color);
 }
 
 .section {
