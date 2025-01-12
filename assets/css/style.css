@@ -69,8 +69,18 @@ h2 {
     color: white;
 }
 
+/* discount sentence */
+.discount {
+    border: 3px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    margin-right: 1rem;
+    
+}
+
 
 /* Navbar */
+
 #navbar {
 background-color: var(--primary-color);
 }
@@ -79,11 +89,13 @@ background-color: var(--primary-color);
     width: 30px;
 }
 /* Header */
+
 #header .lead {
 font-family: var(--secondary-font);
 }
 
 /* Services */
+
 #services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
@@ -95,6 +107,7 @@ margin-bottom: 1.5rem;
 }
 
 /* Game library cards */
+
 #new-games .card,
 #fav-games .card {
     border: none;
