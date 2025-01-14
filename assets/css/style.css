@@ -59,7 +59,7 @@ h2 {
 }
 
 .custom-button-outline {
-    border: 3px solid var(--highlight-color)
+    border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color)
 }
@@ -161,6 +161,8 @@ padding-bottom: 3rem;
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -171,19 +173,6 @@ padding-bottom: 3rem;
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
- border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} 
-    */
 
     /* media queries */
 
